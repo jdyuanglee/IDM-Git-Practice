@@ -14,7 +14,7 @@ gulp.task('css', () => {
 
 gulp.task('html', () => {
   return gulp.src('src/views/index.html')
-    // .pipe(gulp.dest('dist/'));
+    .pipe(gulp.dest('dist/'));
 });
 
 gulp.task('serve', ['css'], () =>{
